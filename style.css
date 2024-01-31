@@ -1,0 +1,35 @@
+.popup{
+	height: 150px;
+	width: 300px;
+}
+
+
+.title{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: green;
+}
+button{
+	background-color: #04AA6D;
+	margin-left: 100px;
+	border-style: none;
+	border-radius: 5px;
+	height: 25px;
+	width: 50px;
+	font-weight: bold;
+	color: white;
+}
+button:hover{
+	background-color: cyan;
+	transition-duration: 1.5s;
+}
+
+.login-text{
+	font-weight: bold;
+}
+input{
+	height: 50px;
+	width: 290px;
+}
