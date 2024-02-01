@@ -1,6 +1,6 @@
 .popup{
-	height: 150px;
-	width: 300px;
+	height: 600px;
+	width: 400px;
 }
 
 
@@ -11,7 +11,7 @@
 	font-weight: bold;
 	color: green;
 }
-button{
+.btn-1{
 	background-color: #04AA6D;
 	margin-left: 100px;
 	border-style: none;
@@ -31,5 +31,20 @@ button:hover{
 }
 input{
 	height: 50px;
-	width: 290px;
+	width: 390px;
+}
+.btn-2{
+	background-color: #04AA6D;
+	border-style: none;
+	border-radius: 5px;
+	height: 25px;
+	width: 100px;
+	font-weight: bold;
+	color: white;
+	margin-left: 300px;
+}
+.response-title{
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline;
 }

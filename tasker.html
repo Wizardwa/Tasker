@@ -19,11 +19,22 @@
 		<div class="title">
 			<p>Tasker</p>
 		</div>
-			<p class="login-text">Already have an account?<button>Login</button></p>
+			<p class="login-text">Already have an account?<button class="btn-1" id="btn-1-1">Login</button></p>
 		<div>
 			<!--Prompt box-->
-			<p>Enter your prompt here</p>
-			<input type="text" name="prompt" id="prompt">
+			
+				<p>Enter your prompt here</p>
+				<input type="text" name="text-box" id="prompt">
+				<br>
+				<br>
+				<button class="btn-2" id="btn-2-2">Generate</button>
+			<!--Generated content-->
+			<br>
+			<hr>		
+			<p class="response-title" id="resp">Response</p>
+			<br>
+			<p class="generated" id="response"></p>
+			
 			<script type="module" src="scripts/popup.js"></script>
 		</div>
 	</div>
